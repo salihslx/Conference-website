@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+ 
+
+}
+/* .top_text{
+ text-align: center;
+  position: absolute;
+  font-size: 20rem;
+  color: rgba(240, 248, 255, 0.502);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.215);
+  font-weight: 700;
+  font-style: italic;
+  transform: rotate(90deg);
+  left: -400px;
+  margin-top: 600px;
+} */
+.about-text{
+  
+    
+    position: absolute;
+    font-size: 20rem;
+    color: rgba(240, 248, 255, 0.023);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.215);
+    font-weight: 700;
+    font-style: italic;
+ 
+}
+
+.eliptop1{
+ top:50px;
+ right: 1px;
+  background-color: red;
+  width: 200px;
+  height:300px;
+  filter: blur(180px);
+}
+.elipabout{
+  
+  left: 1px;
+   background-color: red;
+   width: 400px;
+   height:300px;
+   filter: blur(280px);
+}
+ul{
+  align-items: center;
+ width: 70%;
+ height: 50px;
+ border-radius: 50px;
+
+ background-color: rgba(74, 73, 73, 0.434);
+  
+}
+ul li{
+   color: aliceblue;
+   transition: 0.51s;
+   font-weight: 400;
+}
+ul li:hover{
+  color: red;
+  font-weight: 500;
+}
+ul li .btn{
+  width: 130px;
+  height: 35px;
+  border-radius: 50px;
+ border: none;
+  background-color: red;
+  color: aliceblue;
+  transition: 0.54s;
+}
+ul li .btn:hover{
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+.s1_landing h2{
+  color: rgb(158, 160, 162);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: -25px;
+}
+.s1_landing h1{
+  color: rgb(255, 55, 0);
+  font-size: 3.5rem;
+  font-weight: 700;
+  filter: blur(0.5px);
+  
+  
+}
+.s1_landing p{
+  color: gray;
+  font-size: 1.3rem;
+}
+.s1_landing .college_name{
+  width: 400px;
+  height: 35px;
+  border: 1px solid rgba(255, 0, 0, 0.491);
+  border-radius: 20px;
+  color: rgb(148, 148, 148);
+  transition: 0.50s;
+}
+.location_img{
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.text-container {
+ 
+  overflow: hidden;
+  color: rgb(124, 124, 124);
+  font-size: 5rem;
+  bottom: 0px;
+ 
+  font-weight: 600;
+  
+  font-style: italic;
+}
+.text-container .scrool2{
+  color: rgba(255, 0, 0, 0);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.animated-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-text 10s linear infinite;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.about h1{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.416);
+ 
+}
+.about p{
+ color: aliceblue;
+ 
+ text-align: center;
+}
+@media only screen and(max-width: 750px) {
+}
