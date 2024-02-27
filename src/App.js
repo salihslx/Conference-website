@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import image from './Assets/images/ieeecekallooppara.png';
+
 
 function App() {
   return (
@@ -34,7 +36,7 @@ function App() {
         <section className="s1_landing flex justify-center align-middle flex-col mt-32">
           <h2>NATIONAL CONFERENCE</h2>
           <h1>CYBER PHYSICAL SYSTEMS</h1>
-          <p>April 18th-20th</p>
+          <p>April 18th-20th 2024</p>
           <div className="flex justify-center text-center m-5">
             <div className="college_name flex justify-center">
               <img
@@ -52,7 +54,7 @@ function App() {
           <span className="animated-text">
             National Conference ...{" "}
             <span className="scrool2">CYBER PHYSICAL SYSTEM . . </span>
-            <span>April 18th -20th </span>
+            <span>April 18th -20th  2024 </span>
           </span>
         </div>
 
@@ -61,10 +63,26 @@ function App() {
           <div className="elipabout absolute"></div>
           <h1>About</h1>
           <p className="w-2/3">
-          Cyber-physical security is vital in our interconnected world, where digital systems merge with physical infrastructure. As technology becomes more ingrained in daily life, vulnerabilities in these systems emerge. A comprehensive strategy is needed, combining cyber security measures with physical security protocols. Strong defenses against cyber threats and resilient physical components are essential for infrastructure protection and data security.
-The rise of technologies like the Internet of Things (IoT) and smart devices intensifies the importance of cyber-physical security. While offering convenience, they also broaden the attack surface for malicious actors. Protecting critical infrastructure, from power grids to healthcare facilities, demands continuous vigilance and adaptive security measures.
-Establishing global standards, conducting regular risk assessments, and fostering cybersecurity awareness are pivotal. Integrating artificial intelligence and machine learning enhances threat detection and response capabilities in real time.
-Understanding that data breaches transcend the digital realm is crucial. Their potential impact on public safety, economic stability, and national security underscores the significance of robust cyber-physical security measures.
+            Cyber-physical security is vital in our interconnected world, where
+            digital systems merge with physical infrastructure. As technology
+            becomes more ingrained in daily life, vulnerabilities in these
+            systems emerge. A comprehensive strategy is needed, combining cyber
+            security measures with physical security protocols. Strong defenses
+            against cyber threats and resilient physical components are
+            essential for infrastructure protection and data security. The rise
+            of technologies like the Internet of Things (IoT) and smart devices
+            intensifies the importance of cyber-physical security. While
+            offering convenience, they also broaden the attack surface for
+            malicious actors. Protecting critical infrastructure, from power
+            grids to healthcare facilities, demands continuous vigilance and
+            adaptive security measures. Establishing global standards,
+            conducting regular risk assessments, and fostering cybersecurity
+            awareness are pivotal. Integrating artificial intelligence and
+            machine learning enhances threat detection and response capabilities
+            in real time. Understanding that data breaches transcend the digital
+            realm is crucial. Their potential impact on public safety, economic
+            stability, and national security underscores the significance of
+            robust cyber-physical security measures.
           </p>
         </section>
 
@@ -221,12 +239,17 @@ Understanding that data breaches transcend the digital realm is crucial. Their p
           </div>
         </section>
 
-         {/* Ticket section */}
-         <section className="ticket-section mt-60 flex flex-col justify-center items-center">
-          <div className="elipabout absolute"></div>
-          <h1>Grab Your Tickets Now: </h1>
-          
-        </section>
+     {/* Ticket section */}
+
+      <section className="ticket-section mt-60 flex flex-col justify-center items-center">
+      <div className="elipabout absolute"></div>
+      <h1>Tickets Now: </h1>
+      
+      <div className="h2-link">Go to Registration Link :<t/> <a className="link-color">click here</a> </div>
+      <img className="upi-image" src={image} alt="For Payment ->" />
+    </section>
+
+    {/* Footer section */}
 
         <footer className="footer">
           <div className="container-footer">
@@ -254,7 +277,6 @@ Understanding that data breaches transcend the digital realm is crucial. Their p
           <hr />
           <p> Copyright &copy; 2024 - CodeHUB.Inc  </p>
         </footer>
-                  
       </main>
     </div>
   );
