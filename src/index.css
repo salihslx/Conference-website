@@ -250,7 +250,9 @@ body {
 
 .ticket-section {
   text-align: center;
-  background-color: gray;
+  background-color:rgba(190, 187, 187, 0.153);
+  height: 45rem;
+  
 }
 
 .ticket-section h1{
@@ -265,8 +267,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/*Footer section*/
 
 .container-footer {
   width: 80%;
@@ -343,6 +343,23 @@ body {
   padding-bottom: 10px;
  margin-left: auto; 
  font-size: 13px;
+}
+
+.h2-link{
+
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  
+}
+
+.link-color{
+  color: rgba(238, 32, 32, 0.747);
+}
+.upi-image{
+   margin-top: 20px;
+  width: 25rem;
+  height: 30rem;
 }
 
 
