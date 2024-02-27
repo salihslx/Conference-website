@@ -228,7 +228,33 @@ Understanding that data breaches transcend the digital realm is crucial. Their p
           
         </section>
 
+        <footer className="footer">
+          <div className="container-footer">
+            <div className="footer-content">
+              <b>Reach Us</b>
+              <iframe
+                title="Google Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.0962058777054!2d76.63926607477896!3d9.412958282861096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0624ce9af6f8b5%3A0x508c3c7d007ea20a!2sCollege%20Of%20Engineering%20Kalloopara%20Thiruvalla!5e0!3m2!1sen!2sin!4v1708963733671!5m2!1sen!2sin"
+                allowFullScreen=""
+                loading="lazy"
+              ></iframe>
 
+              <p>College of Engineering Kallooppara</p>
+              <p>Kadamankulam P.O</p>
+              <p>Thiruvalla, Pathanamthitta</p>
+              <p>Kerala, India</p>
+            </div>
+            <div className="footer-right-section">
+              <b>Useful Links</b>
+              <p>Registration Link</p>
+              <p>IEEE SB CEK</p>
+              <b>GET IN TOUCH</b>
+            </div>
+          </div>
+          <hr />
+          <p> Copyright &copy; 2024 - CodeHUB.Inc  </p>
+        </footer>
+                  
       </main>
     </div>
   );
