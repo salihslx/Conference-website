@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import image from './Assets/images/ieeecekallooppara.png';
 
 
 function App() {
@@ -245,7 +246,7 @@ function App() {
       <h1>Tickets Now: </h1>
       
       <div className="h2-link">Go to Registration Link :<t/> <a className="link-color">click here</a> </div>
-      <img className="upi-image" src=" " alt="For Payment ->" />
+      <img className="upi-image" src={image} alt="For Payment ->" />
     </section>
 
     {/* Footer section */}
