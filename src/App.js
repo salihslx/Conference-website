@@ -245,7 +245,7 @@ function App() {
       <h1>Tickets Now: </h1>
       
       <div className="h2-link">Go to Registration Link :<t/> <a className="link-color">click here</a> </div>
-      <img className="upi-image" src="https://i.postimg.cc/wByrZ6nX/ieeecekallooppara-sbi-pdf.png" alt="For Payment ->" />
+      <img className="upi-image" src=" " alt="For Payment ->" />
     </section>
 
     {/* Footer section */}
