@@ -243,7 +243,7 @@ function App() {
 
       <section className="ticket-section mt-60 flex flex-col justify-center items-center">
       <div className="elipabout absolute"></div>
-      <h1>Tickets Now: </h1>
+      <h1>Register Now: </h1>
       
       <div className="h2-link">Go to Registration Link :<t/> <a className="link-color">click here</a> </div>
       <img className="upi-image" src={image} alt="For Payment ->" />
