@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Confernce-website/static/css/main.728f5c1a.css",
+    "main.js": "/Confernce-website/static/js/main.2a8d7d00.js",
+    "static/js/453.ed3810f9.chunk.js": "/Confernce-website/static/js/453.ed3810f9.chunk.js",
+    "static/media/ieeecekallooppara.png": "/Confernce-website/static/media/ieeecekallooppara.2ffe741c3c7607b69902.png",
+    "index.html": "/Confernce-website/index.html",
+    "main.728f5c1a.css.map": "/Confernce-website/static/css/main.728f5c1a.css.map",
+    "main.2a8d7d00.js.map": "/Confernce-website/static/js/main.2a8d7d00.js.map",
+    "453.ed3810f9.chunk.js.map": "/Confernce-website/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.728f5c1a.css",
+    "static/js/main.2a8d7d00.js"
+  ]
+}
