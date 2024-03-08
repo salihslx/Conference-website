@@ -371,7 +371,7 @@ body {
   .footer-right-section{
     margin-top: 5%;
     margin-bottom: 5%;
-    margin-left: -75%;
+    margin-left: -73%;
   }
   
 }
@@ -421,6 +421,7 @@ body {
 }
 
 .category {
+
   font-size: 0.7em;
   font-weight: 600;
   color: red;
@@ -450,6 +451,10 @@ body {
 
 .name {
   font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
 }
 
 .name:hover {
