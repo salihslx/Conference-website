@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import image from "./Assets/images/ieeecekallooppara.png";
 import vipin from "./Assets/vipin.jpg";
-import geetha from './Assets/ProVCadmn.jpg';
+import geetha from './Assets/geetha.jpg';
 import andrew from './Assets/andrew.jpeg';
 import rethik from './Assets/download.jpeg';
 
