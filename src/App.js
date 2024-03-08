@@ -1,6 +1,10 @@
 import React from "react";
 import "./App.css";
 import image from "./Assets/images/ieeecekallooppara.png";
+import vipin from "./Assets/vipin.jpg";
+import geetha from './Assets/ProVCadmn.jpg';
+import andrew from './Assets/andrew.jpeg';
+import rethik from './Assets/download.jpeg';
 
 function App() {
 
@@ -246,16 +250,16 @@ function App() {
           <h1 className="conference-heading">SPEAKERS</h1>
           <div className="speakers-cards ">
             <div class="card">
-              <div class="card-image"></div>
-              <div class="category"> Dr. RAMALATHA MARIMUTHU </div>
+              <img class="card-image" src={geetha}/>
+              <div class="category">Dr. GEETHA S</div>
               <div class="heading">
                 {" "}
-                Director, iExplore Foundation for Sustainable Development....
+                Professor and Associate Dean (Research), VIT Chennai.....
               </div>
             </div>
 
             <div class="card">
-              <div class="card-image"></div>
+              <img class="card-image" src={rethik} />
               <div class="category">Dr. RAGESH G K</div>
               <div class="heading">
                 {" "}
@@ -265,7 +269,7 @@ function App() {
             </div>
 
             <div class="card">
-              <div class="card-image"></div>
+              <img class="card-image" src={andrew}/>
               <div class="category"> Dr. DITTIN ANDREWS </div>
               <div class="heading">
                 {" "}
@@ -273,7 +277,7 @@ function App() {
               </div>
             </div>
             <div class="card">
-              <div class="card-image"></div>
+              <img class="card-image" src={vipin}/>
               <div class="category"> Mr. VIPIN GEORGE </div>
               <div class="heading">
                 {" "}
@@ -282,6 +286,7 @@ function App() {
             </div>
           </div>
         </section>
+
 
         {/* Ticket section */}
 
