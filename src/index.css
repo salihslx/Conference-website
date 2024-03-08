@@ -1,0 +1,458 @@
+/* App.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.eliptop1 {
+  top: 50px;
+  right: 1px;
+  background-color: red;
+  width: 200px;
+  height: 300px;
+  filter: blur(180px);
+}
+
+.elipabout {
+  left: 1px;
+  background-color: red;
+  width: 400px;
+  height: 300px;
+  filter: blur(280px);
+}
+
+.navbar ul {
+  align-items: center;
+  width: 70%;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgba(74, 73, 73, 0.434);
+}
+
+.navbar ul li {
+  color: aliceblue;
+  transition: 0.51s;
+  font-weight: 400;
+}
+
+.navbar ul li:hover {
+  color: red;
+  font-weight: 500;
+}
+
+.navbar ul li .btn {
+  width: 130px;
+  height: 35px;
+  border-radius: 50px;
+  border: none;
+  background-color: red;
+  color: aliceblue;
+  transition: 0.54s;
+}
+
+.navbar ul li .btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
+
+.s1_landing h2 {
+  color: rgb(158, 160, 162);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: -25px;
+}
+
+.s1_landing h1 {
+  padding-top: 10px;
+  color: rgb(255, 55, 0);
+  font-size: 3.5rem;
+  font-weight: 700;
+  filter: blur(0.5px);
+}
+
+.s1_landing p {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.s1_landing .college_name {
+  width: 400px;
+  height: 35px;
+  border: 1px solid rgba(255, 0, 0, 0.491);
+  border-radius: 20px;
+  color: rgb(148, 148, 148);
+  transition: 0.50s;
+}
+
+.location_img {
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.text-container {
+  overflow: hidden;
+  color: rgb(124, 124, 124);
+  font-size: 5rem;
+  bottom: 0px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.text-container .scrool2 {
+  color: rgba(255, 0, 0, 0);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.animated-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-text 8s linear infinite;
+  margin-top: 8vh;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.about h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.416);
+}
+
+.about p {
+  color: aliceblue;
+  text-align: center;
+}
+.about{
+  margin-top: 6rem
+}
+
+/* Mobile menu styles */
+.mobile-menu {
+  display: none; /* Hide the mobile menu toggle button by default */
+}
+
+.mobile-menu-items {
+  display: none; /* Hide the mobile menu by default */
+}
+
+@media only screen and (max-width: 768px) {
+  /* Hide the desktop navigation on small screens */
+  .navbar ul {
+    display: none;
+  }
+
+  /* Display the mobile menu toggle button */
+  .mobile-menu {
+    display: block;
+    /* Add styling for the toggle button as needed */
+  }
+
+  /* Display the mobile menu when it's open */
+  .mobile-menu-items {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(74, 73, 73, 0.434);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+    /* Add additional styling for the mobile menu items */
+  }
+
+  .mobile-menu-items li {
+    /* Add styling for mobile menu items */
+    color: aliceblue;
+    transition: 0.51s;
+    font-weight: 400;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-menu-items li:hover {
+    color: red;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-menu-items li:last-child {
+    border-bottom: none;
+  }
+}
+
+
+/* Conference Topics Section */
+.conference-topics {
+  text-align: center;
+  
+}
+
+.boxes-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.conference-heading{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.416);
+}
+.box {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  width: 210px;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box svg {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px; /* Add space between SVG and text */
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: calc(33.33% - 20px);
+  }
+}
+
+/*Tickect section*/
+
+.ticket-section {
+  text-align: center;
+  background-color:rgba(190, 187, 187, 0.153);
+  height: 45rem;
+  
+}
+
+.ticket-section h1{
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.ticket-container {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer hr {
+  border: 1px solid #666; 
+  width: 80%; 
+  margin: 20px auto; 
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.footer-content b {
+  color: red; 
+  font-weight: bold; 
+  margin-right: auto; 
+  font-size: 25;
+  padding-bottom: 10px;
+  
+}
+.footer-content iframe {
+
+  align-self: start;
+  width: 200px; 
+  height: 150px; 
+  border: 0;
+
+}
+.footer-content p {
+  color: grey;
+ padding-top: 10px;
+ align-self: start;
+}
+.footer-right-section b {
+  color: red; 
+  font-weight: bold; 
+ align-self: self-end;
+  font-size: 25;
+  padding-bottom: 10px;
+  
+}
+.footer-right-section{
+  margin-top: -11%;
+  margin-bottom: 5%;
+  margin-left: 80%;
+}
+.footer-right-section p {
+  color: grey;
+  padding-bottom: 10px;
+ margin-left: auto; 
+ font-size: 13px;
+}
+
+.h2-link{
+
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  
+}
+
+.link-color{
+  color: rgba(238, 32, 32, 0.747);
+}
+.upi-image{
+   margin-top: 20px;
+  width: 25rem;
+  height: 30rem;
+}
+
+
+@media only screen and (max-width: 860px) {
+
+  .footer-right-section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: -75%;
+  }
+  
+}
+
+
+/*speakers-section*/
+
+.speakers-section{
+
+  top: 50px;
+  right: 10px;
+  background-color: red;
+  width: 200px;
+  height: 300px;
+  filter: blur(180px);
+
+ 
+
+}
+.speakers-cards {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+ 
+}
+
+
+.card {
+  width: 250px;
+  background: rgba(190, 187, 187, 0.153);
+  padding: .4em;
+  border-radius: 6px;
+}
+
+.card-image {
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
