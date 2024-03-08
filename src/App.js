@@ -296,7 +296,7 @@ function App() {
 
           <div className="h2-link">
             Go to Registration Link :<t />{" "}
-            <a className="link-color">click here</a>{" "}
+            <a className="link-color href="https://docs.google.com/forms/d/e/1FAIpQLScSehlYCjsUGeilNDN6h0FdMAp2tvM1eApYbTeFYG1nF2yx2w/viewform?pli=1">click here</a>{" "}
           </div>
           <img className="upi-image" src={image} alt="For Payment ->" />
         </section>
