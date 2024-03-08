@@ -246,7 +246,7 @@ function App() {
 
         {/*speakers-section*/}
 
-        <section className="conference-topics mt-60 flex flex-col justify-center items-center">
+       <section className="conference-topics mt-60 flex flex-col justify-center items-center">
           <h1 className="conference-heading">SPEAKERS</h1>
           <div className="speakers-cards ">
             <div class="card">
@@ -254,7 +254,7 @@ function App() {
               <div class="category">Dr. GEETHA S</div>
               <div class="heading">
                 {" "}
-                Professor and Associate Dean (Research), VIT Chennai.....
+                Professor and Associate Dean (Research), VIT Chennai.
               </div>
             </div>
 
@@ -264,7 +264,7 @@ function App() {
               <div class="heading">
                 {" "}
                 Associate Professor, Indian Institute of Information Technology
-                Kottayam..
+                Kottayam.
               </div>
             </div>
 
@@ -273,7 +273,7 @@ function App() {
               <div class="category"> Dr. DITTIN ANDREWS </div>
               <div class="heading">
                 {" "}
-                CJoint Director, Cyber Security, CDAC, Kerala............
+                CJoint Director, Cyber Security, CDAC, Kerala.
               </div>
             </div>
             <div class="card">
@@ -281,7 +281,7 @@ function App() {
               <div class="category"> Mr. VIPIN GEORGE </div>
               <div class="heading">
                 {" "}
-                Cyber Forensic Consultant, Kerala Police Academy.........
+                Cyber Forensic Consultant, Kerala Police Academy.
               </div>
             </div>
           </div>
