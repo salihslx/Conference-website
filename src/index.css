@@ -274,11 +274,10 @@ body {
   margin: 0 auto;
 }
 .footer {
-    background-color: #101010;
-    color: #fff;
-    height: 40rem;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #101010;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .footer-content {
@@ -540,5 +539,12 @@ body {
     border-radius: 10px;
     background-color: rgb(53, 53, 53);
     width: 24rem;
+  }
+  .footer {
+    background-color: #101010;
+    color: #fff;
+    height: 38px;
+    padding: 20px 0;
+    text-align: center;
   }
 }
