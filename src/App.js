@@ -91,7 +91,45 @@ function App() {
             robust cyber-physical security measures.
           </p>
         </section>
+        {/*speakers-section*/}
 
+        <section className="conference-topics mt-60 flex flex-col justify-center items-center">
+          <h1 className="conference-heading">SPEAKERS</h1>
+          <div className="speakers-cards ">
+            <div class="card">
+              <img class="card-image" src={geetha} />
+              <div class="category">Dr. GEETHA S</div>
+              <div class="heading">
+                {" "}
+                Professor and Associate Dean (Research), VIT Chennai.
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-image" src={rethik} />
+              <div class="category">Dr. RAGESH G K</div>
+              <div class="heading">
+                {" "}
+                Associate Professor, Indian Institute of Information Technology
+                Kottayam.
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-image" src={andrew} />
+              <div class="category"> Dr. DITTIN ANDREWS </div>
+              <div class="heading">
+                {" "}
+                Joint Director, Cyber Security, CDAC, Kerala.
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-image" src={vipin} />
+              <div class="category"> Mr. VIPIN GEORGE </div>
+              <div class="heading"> Faculty Kerala Police Academy.</div>
+            </div>
+          </div>
+        </section>
         {/* Conference Topics Section */}
         <section className="conference-topics mt-60 flex flex-col justify-center items-center">
           <h1 className="conference-heading">CONFERENCE TOPICS</h1>
@@ -202,7 +240,7 @@ function App() {
                   fill="white"
                 />
               </svg>
-              ARTIFICIAL INTELLIGENCE 
+              ARTIFICIAL INTELLIGENCE
             </div>
 
             <div className="box">
@@ -237,46 +275,6 @@ function App() {
                 />
               </svg>
               CYBER SECURITY
-            </div>
-          </div>
-        </section>
-
-        {/*speakers-section*/}
-
-        <section className="conference-topics mt-60 flex flex-col justify-center items-center">
-          <h1 className="conference-heading">SPEAKERS</h1>
-          <div className="speakers-cards ">
-            <div class="card">
-              <img class="card-image" src={geetha} />
-              <div class="category">Dr. GEETHA S</div>
-              <div class="heading">
-                {" "}
-                Professor and Associate Dean (Research), VIT Chennai.
-              </div>
-            </div>
-
-            <div class="card">
-              <img class="card-image" src={rethik} />
-              <div class="category">Dr. RAGESH G K</div>
-              <div class="heading">
-                {" "}
-                Associate Professor, Indian Institute of Information Technology
-                Kottayam.
-              </div>
-            </div>
-
-            <div class="card">
-              <img class="card-image" src={andrew} />
-              <div class="category"> Dr. DITTIN ANDREWS </div>
-              <div class="heading">
-                {" "}
-                Joint Director, Cyber Security, CDAC, Kerala.
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-image" src={vipin} />
-              <div class="category"> Mr. VIPIN GEORGE </div>
-              <div class="heading"> Faculty Kerala Police Academy.</div>
             </div>
           </div>
         </section>
