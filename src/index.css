@@ -208,6 +208,7 @@ body {
 
 .boxes-container {
   padding-top: 20px;
+  margin-bottom: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,8 +377,7 @@ body {
 }
 .speakers-cards {
   margin-top: 10%;
-  margin-bottom: 80px;
-
+  margin-bottom: -5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -442,7 +442,11 @@ body {
 /* Footer section*/
 
 .page-footer {
-  background: linear-gradient(to top, rgba(98, 97, 97, rgba(21, 21, 26, 0.541)1), blue);
+  background: linear-gradient(
+    to top,
+    rgba(98, 97, 97, rgba(21, 21, 26, 0.541) 1),
+    blue
+  );
   color: white;
   text-align: left;
   padding: 10px;
@@ -518,7 +522,6 @@ body {
 }
 @media screen and (max-width: 950px) {
   .right-side {
-
     margin-top: 1rem;
     margin-bottom: 30px;
     text-align: center;
@@ -532,10 +535,10 @@ body {
   .social {
     text-align: center;
     margin-left: 35%;
-}
-.contact-infos {
-  border-radius: 10px;
-  background-color: rgb(53, 53, 53);
-  width: 24rem;
-}
+  }
+  .contact-infos {
+    border-radius: 10px;
+    background-color: rgb(53, 53, 53);
+    width: 24rem;
+  }
 }
