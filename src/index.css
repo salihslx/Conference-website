@@ -8,7 +8,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: #000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -225,6 +225,7 @@ body {
   color: aliceblue;
   padding: 10px;
   margin: 10px;
+
   border-radius: 15px;
   text-align: center;
   width: 210px;
@@ -273,6 +274,7 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
 .footer {
   background-color: #101010;
   color: #fff;
@@ -441,11 +443,7 @@ body {
 /* Footer section*/
 
 .page-footer {
-  background: linear-gradient(
-    to top,
-    rgba(98, 97, 97, rgba(21, 21, 26, 0.541) 1),
-    blue
-  );
+  background-color: #101010;
   color: white;
   text-align: left;
   padding: 10px;
@@ -546,5 +544,85 @@ body {
     height: 38rem;
     padding: 20px 0;
     text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .right-side {
+    margin-top: 1rem;
+    margin-bottom: 30px;
+    text-align: center;
+    width: auto;
+  }
+}
+
+/* Map-section*/
+
+.container-map {
+  text-align: center;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-map h1 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 2rem;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.416);
+}
+.map {
+  /* margin-left: auto; */
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: auto;
+}
+
+.map p {
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  left: 60%;
+  padding: 20px;
+  font-size: x-large;
+}
+iframe {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  margin-left: 10rem;
+}
+
+.location {
+  display: flex;
+  margin-left: 45rem;
+  margin-top: -14rem;
+  font-weight: 600;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+@media screen and (max-width: 950px) {
+  .location {
+    display: flex;
+    margin-left: 0rem;
+    margin-top: 5rem;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  .map {
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  iframe {
+    border-radius: 15px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
   }
 }
