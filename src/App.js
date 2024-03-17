@@ -91,6 +91,35 @@ function App() {
             robust cyber-physical security measures.
           </p>
         </section>
+
+        {/* About-section */}
+
+        <section className="container-map  flex flex-col justify-center items-center">
+          <h1>Venue</h1>
+
+          <div className="map">
+            <iframe
+              id="myIframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.096266149546!2d76.63926607502357!3d9.412952990664506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0624ce9af6f8b5%3A0x508c3c7d007ea20a!2sCollege%20Of%20Engineering%20Kalloopara%20Thiruvalla!5e0!3m2!1sen!2sin!4v1710350821293!5m2!1sen!2sin"
+              width={500}
+              height={450}
+              style={{ border: 3 }}
+              allowFullScreen
+              loading="lazy"
+              title="Conference Location"
+            ></iframe>
+            <div className="location">
+              {" "}
+              College of Engineering Kallooppara
+              <br />
+              Kadamankulam P.O
+              <br />
+              Thiruvalla, Pathanamthitta
+              <br />
+              Kerala, India
+            </div>
+          </div>
+        </section>
         {/*speakers-section*/}
 
         <section className="conference-topics mt-60 flex flex-col justify-center items-center">
@@ -279,19 +308,24 @@ function App() {
           </div>
         </section>
 
-        {/* Ticket section 
+        {/* Ticket section */}
 
-       /* <section className="ticket-section mt-60 flex flex-col justify-center items-center">
+        <section className="ticket-section mt-60 flex flex-col justify-center items-center">
           <div className="elipabout absolute"></div>
           <h1>Register Now: </h1>
 
           <div className="h2-link">
             Go to Registration Link :<t />{" "}
-            <a className="link-color" href="https://docs.google.com/forms/d/e/1FAIpQLScSehlYCjsUGeilNDN6h0FdMAp2tvM1eApYbTeFYG1nF2yx2w/viewform">click here</a>
+            <a
+              className="link-color"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScSehlYCjsUGeilNDN6h0FdMAp2tvM1eApYbTeFYG1nF2yx2w/viewform"
+            >
+              click here
+            </a>
           </div>
           <img className="upi-image" src={image} alt="For Payment ->" />
         </section>
-*/}
+
         <footer className="footer">
           <div className="container-footer">
             <div className="footer-content">
@@ -328,3 +362,4 @@ function App() {
 }
 
 export default App;
+
