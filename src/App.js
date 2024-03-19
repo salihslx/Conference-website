@@ -139,7 +139,7 @@ function App() {
                 alt=""
                 className="location_img"
               />
-                <h4 className="mt-1 font-bold">College of Engineering Kallooppara</h4>
+              <h4 className="mt-1 font-bold">College of Engineering Kallooppara</h4>
             </div>
           </div>
         </section>
@@ -430,14 +430,14 @@ function App() {
           <div className="left-text">
             <img src={CostInfo} alt="" className="costinfo" />
           </div></div>
-          <div className="text-container-reg mt-24">
+          
+        
+        </section>
+        <div className="text-container-reg mt-24">
           <span className="animated-text">
             Register Date Extended...{" "}
             <span className="scrool2"> 30 March 2024  . </span>
-          </span>
-        </div>
-        </section>
-
+          </span></div>
         <footer className="footer">
           <div className="container-footer">
             <div className="footer-content">
