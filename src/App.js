@@ -139,7 +139,7 @@ function App() {
                 alt=""
                 className="location_img"
               />
-              <h4 className="mt-1">College of Engineering Kallooppara</h4>
+                <h4 className="mt-1 font-bold">College of Engineering Kallooppara</h4>
             </div>
           </div>
         </section>
