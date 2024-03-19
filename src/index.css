@@ -554,9 +554,11 @@ body {
 }
 .map {
   /* margin-left: auto; */
-  margin-top: 5rem;
-  margin-left: 15rem;
-  margin-right: auto;
+
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: auto;
+
 }
 
 .map p {
