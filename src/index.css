@@ -138,9 +138,8 @@ body {
 }
 
 .about p {
-    color: #f0f8ff;
-    text-align: center;
-    margin-top: 5rem;
+  color: aliceblue;
+  text-align: center;
 }
 .about {
   margin-top: 6rem;
@@ -537,7 +536,6 @@ body {
   font-weight: 600;
 }
 
-
 /* Map-section*/
 
 .container-map {
@@ -555,11 +553,9 @@ body {
 }
 .map {
   /* margin-left: auto; */
-
-    margin-top: 5rem;
-    margin-left: 7rem;
-    margin-right: auto;
-
+  margin-top: 5rem;
+  margin-left: 15rem;
+  margin-right: auto;
 }
 
 .map p {
@@ -588,7 +584,6 @@ iframe {
   font-size: 25px;
 }
 @media screen and (max-width: 950px) {
-
   .ticket-section {
     text-align: center;
     background-color: rgba(190, 187, 187, 0.153);
@@ -617,32 +612,35 @@ iframe {
     height: 300px;
   }
 }
-.left-text{
+.left-text {
   margin-left: 15rem;
   margin-right: 5rem;
-  padding-top: 5rem 
-
+  padding-top: 5rem;
 }
-.register-heads{
-  margin-top:  20px;
+.register-heads {
+  margin-top: 20px;
 }
-.register-imgs{
+.register-imgs {
   display: flex;
   margin-top: 50px;
   margin-bottom: -8rem;
 }
-.costinfo{
+.costinfo {
   width: 20rem;
   height: 20rem;
 }
 .text-container-reg {
   overflow: hidden;
+  background-color: rgba(190, 187, 187, 0.153);
   color: rgb(124, 124, 124);
   font-size: 5rem;
   bottom: 0px;
   font-weight: 600;
   font-style: italic;
+  top: 1rem;
+  margin-top: 0px;
 }
+
 @media screen and (max-width: 950px) {
   .right-side {
     margin-top: 1rem;
@@ -671,28 +669,25 @@ iframe {
     padding: 20px 0;
     text-align: center;
   }
-  .register-imgs{
+  .register-imgs {
     display: grid;
   }
-  .left-text{
+  .left-text {
     margin-left: 0rem;
     margin-right: 0rem;
     padding-top: 5rem;
     padding-left: 3.5rem;
-  
   }
-  .register-heads{
-    margin-top:  20px;
+  .register-heads {
+    margin-top: 20px;
   }
-  .register-imgs{
+  .register-imgs {
     display: grid;
   }
-  .costinfo{
+  .costinfo {
     width: 18rem;
     height: 18rem;
   }
-
-
 }
 @media screen and (max-width: 480px) {
   .right-side {
@@ -702,3 +697,4 @@ iframe {
     width: auto;
   }
 }
+
