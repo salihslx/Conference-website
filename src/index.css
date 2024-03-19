@@ -138,8 +138,9 @@ body {
 }
 
 .about p {
-  color: aliceblue;
-  text-align: center;
+    color: #f0f8ff;
+    text-align: center;
+    margin-top: 5rem;
 }
 .about {
   margin-top: 6rem;
