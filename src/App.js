@@ -459,12 +459,15 @@ function App() {
               </div>
             </div>
           </section>
+
           <div className="text-container-reg mt-24">
-            <span className="animated-text">
+            <span className="animated-text-reg">
               Register Date Extended...{" "}
               <span className="scrool2"> 30 March 2024 . </span>
             </span>
           </div>
+
+
           <footer className="footer">
             <div className="container-footer">
               <div className="footer-content">
