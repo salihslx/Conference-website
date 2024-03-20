@@ -140,6 +140,7 @@ body {
 .about p {
   color: aliceblue;
   text-align: center;
+  margin-top: 5rem;
 }
 .about {
   margin-top: 6rem;
@@ -225,8 +226,8 @@ body {
 }
 
 .boxes-container {
-  padding-top: 20px;
-  margin-bottom: 10rem;
+  padding-top: 5rem;
+  margin-bottom: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -372,8 +373,8 @@ body {
 }
 .upi-image {
   margin-top: 40px;
-  width: 25rem;
-  height: 29rem;
+  width: 20rem;
+  height: 25rem;
 }
 
 @media only screen and (max-width: 860px) {
@@ -568,9 +569,11 @@ body {
 }
 iframe {
   border-radius: 15px;
+  text-align: center;
   width: 300px;
   height: 300px;
-  margin-left: 10rem;
+  align-items: center;
+  margin-left: 25rem;
 }
 
 .location {
@@ -633,12 +636,19 @@ iframe {
   overflow: hidden;
   background-color: rgba(190, 187, 187, 0.153);
   color: rgb(124, 124, 124);
-  font-size: 5rem;
+  font-size: 4rem;
   bottom: 0px;
   font-weight: 600;
   font-style: italic;
   top: 1rem;
   margin-top: 0px;
+}
+.animated-text-reg {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-text 8s linear infinite;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
 }
 
 @media screen and (max-width: 950px) {
@@ -676,7 +686,7 @@ iframe {
     margin-left: 0rem;
     margin-right: 0rem;
     padding-top: 5rem;
-    padding-left: 3.5rem;
+    padding-left: 1.5rem;
   }
   .register-heads {
     margin-top: 20px;
