@@ -11,7 +11,6 @@ import Logo from "./Assets/IHRD Logo White.png";
 import Inocall from "./Assets/ion_call.png";
 import Social from "./Assets/social media.png";
 import CostInfo from "./Assets/leftcontent.png";
-import bgGif from './Assets/bggifnccps.gif';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -38,7 +37,7 @@ function App() {
           <div class="square" id="sq9"></div>
         </div>
       ) : (
-        <main >
+        <main>
           <div className="eliptop1 absolute"></div>
           {/* Navbar */}
           <div className="navbar flex items-center justify-center">
