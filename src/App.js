@@ -39,7 +39,6 @@ function App() {
         </div>
       ) : (
         <main >
-          <div style={{ backgroundImage: `url(${bgGif})` }}>
           <div className="eliptop1 absolute"></div>
           {/* Navbar */}
           <div className="navbar flex items-center justify-center">
@@ -178,7 +177,7 @@ function App() {
               <span>April 18th -20th 2024 </span>
             </span>
           </div>
-</div>
+
           {/* About section */}
           <section
             className="about flex flex-col justify-center items-center"
