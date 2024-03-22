@@ -5,11 +5,13 @@ import image from "./Assets/images/ieeecekallooppara.png";
 import vipin from "./Assets/vipin.jpg";
 import geetha from "./Assets/geetha.png";
 import andrew from "./Assets/andrew.png";
+import jyoti from "./Assets/Jyoti-modified.jpg";
 import rethik from "./Assets/BlackCoat.png";
 import Logo from "./Assets/IHRD Logo White.png";
 import Inocall from "./Assets/ion_call.png";
 import Social from "./Assets/social media.png";
 import CostInfo from "./Assets/leftcontent.png";
+import bgGif from './Assets/bggifnccps.gif';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -36,9 +38,9 @@ function App() {
           <div class="square" id="sq9"></div>
         </div>
       ) : (
-        <main>
+        <main >
+          <div style={{ backgroundImage: `url(${bgGif})` }}>
           <div className="eliptop1 absolute"></div>
-
           {/* Navbar */}
           <div className="navbar flex items-center justify-center">
             <ul className="flex flex-row justify-around mt-10 mb-24">
@@ -150,7 +152,7 @@ function App() {
           </div>
 
           {/* Section one landing page */}
-          <section className="s1_landing flex justify-center align-middle flex-col mt-32">
+          <section className="s1_landing flex justify-center align-middle flex-col mt-32" >
             <h2>NATIONAL CONFERENCE</h2>
             <h1>CYBER PHYSICAL SYSTEMS</h1>
             <p>April 18th-20th 2024</p>
@@ -176,7 +178,7 @@ function App() {
               <span>April 18th -20th 2024 </span>
             </span>
           </div>
-
+</div>
           {/* About section */}
           <section
             className="about flex flex-col justify-center items-center"
@@ -278,6 +280,11 @@ function App() {
                 <img class="card-image" src={vipin} />
                 <div class="category"> Mr. VIPIN GEORGE </div>
                 <div class="heading"> Faculty Kerala Police Academy.</div>
+              </div>
+              <div class="card">
+                <img class="card-image" src={jyoti} />
+                <div class="category">Mrs. JYOTI RAMASWAMY </div>
+                <div class="heading"> Freelance Consultant/ Trainer, Cyber-Security.</div>
               </div>
             </div>
           </section>
@@ -505,4 +512,5 @@ function App() {
 }
 
 export default App;
+
 
